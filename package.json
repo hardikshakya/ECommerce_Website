@@ -2,9 +2,11 @@
   "name": "ecommerce_website",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/hardikshakya/ECommerce_Website/issues"
   },
-  "homepage": "https://github.com/hardikshakya/ECommerce_Website#readme"
+  "homepage": "https://github.com/hardikshakya/ECommerce_Website#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
 }
