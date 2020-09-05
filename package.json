@@ -29,6 +29,8 @@
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "mongodb": "^3.6.1",
-    "mongoose": "^5.10.3"
+    "mongoose": "^5.10.3",
+    "nodemailer": "^6.4.11",
+    "nodemailer-sendgrid-transport": "^0.2.0"
   }
 }
